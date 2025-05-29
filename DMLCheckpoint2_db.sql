@@ -34,7 +34,7 @@ INSERT INTO customer (customer_id, customer_name, customer_tel) VALUES
 ('C02', 'ASMA', '77345823');
 
 -- Insert data into the product table
--- Extracting category from the product name as per your data layout
+-- Extracting category from the product name 
 INSERT INTO product (product_id, product_name, category, price) VALUES
 ('P01', 'Samsung Galaxy S20', 'Smartphone', 3299.00),
 ('P02', 'ASUS Notebook', 'PC', 4599.00);
